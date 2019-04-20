@@ -1,9 +1,9 @@
 {
-  "name": "Long Leave the King",
+  "name": "Long Leave the kingkOng",
   "version": "1.0",
-  "description": "SNS Theme for Coronation Day (Long Live the King)",
+  "description": "Stupid SNS Theme for yellOw Day",
   "browser_action": {
-    "default_title": "Long Live the King!",
+    "default_title": "Yayy!",
     "default_popup": "popup.html",
     "default_icon": {
       "72": "images/icon-72x72.png",
