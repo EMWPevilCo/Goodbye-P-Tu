@@ -1,48 +1,39 @@
 {
-    "name": "Couple Censorer",
-    "version": "1.0",
-    "description": "Build an Extension!",
-    "permissions": [
-        "activeTab",
-        "declarativeContent",
-        "storage"
-    ],
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
+  "name": "Wrong Leave the King",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Inject!",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["inject.js"],
+      "css": ["inject.css"]
     },
-    "browser_action": {
-        "default_title": "Inject!",
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "images/get_started16.png",
-            "32": "images/get_started32.png",
-            "48": "images/get_started48.png",
-            "128": "images/get_started128.png"
-        }
-    },
-    "icons": {
-        "16": "images/get_started16.png",
-        "32": "images/get_started32.png",
-        "48": "images/get_started48.png",
-        "128": "images/get_started128.png"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*/*",
-                "http://*/*"
-                
-            ],
-            "js": [
-                "inject.js"
-            ],
-            "css": [
-                "inject.css"
-            ]
-        }
-    ],
-    "manifest_version": 2
+    {
+      "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
+      "js": ["fbinject.js"],
+      "css": ["fbinject.css"]
+    }
+  ],
+  "manifest_version": 2
 }
