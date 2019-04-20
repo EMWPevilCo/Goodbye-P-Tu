@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Niramit");
+
+body {
+  font-family: "Niramit", sans-serif;
+}
+
+._li,
+#stream_pagelet,
+._5vb_,
+._5vb_ #contentCol {
+  background-color: #fcf4a3 !important;
+}
+
+._2s1x ._2s1y {
+  background-color: #fada5e;
+  border-bottom: 1px solid #fada5e;
+  color: #fff;
+}
+
+.fbChatSidebar,
+.jewelItemNew ._33e {
+  background-color: #fcf4a3 !important;
+}
+
+._26w9 {
+  border-color: #fada5e;
+}
+
+._58cn ._58cl,
+a,
+._mx9.verbose ._mxb,
+.fbReminders .fbRemindersStory .fbRemindersTitle {
+  color: #fda50f;
+}
+
+._4jy1 {
+  background-color: #fda50f;
+  border-color: #fda50f;
+}
