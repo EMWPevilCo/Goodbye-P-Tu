@@ -32,8 +32,20 @@
     },
     {
       "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
-      "js": ["fbinject.js"],
-      "css": ["fbinject.css"],
+      "js": ["inject.js"],
+      "css": ["i_facebook/fbinject.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://*.youtube.com/*", "http://*.youtube.com/*"],
+      "js": ["inject.js"],
+      "css": ["i_youtube/ytinject.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://*.instagram.com/*", "http://*.instagram.com/*"],
+      "js": ["inject.js"],
+      "css": ["i_instagram/iginject.css"],
       "run_at": "document_start"
     }
   ],
