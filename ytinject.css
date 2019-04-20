@@ -1,0 +1,120 @@
+.style-scope ytd-masthead{
+    background-color:#FDA50F;
+    animation-delay: 5s; 
+    animation-duration: 200ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all 2s ease-in-out;
+ }
+ .style-scope ytd-masthead:hover{
+      background-image: linear-gradient(
+      10deg, 
+      magenta,
+      aqua, 
+      limegreen, 
+      yellow);
+   transform: rotate(-700deg) skew(15deg) scale(0.7);
+ }
+ @keyframes blink {
+    from {
+       opacity: 1;
+    }
+    to {
+       opacity: 0;
+    }
+  }
+ 
+ .style-scope ytd-guide-renderer{
+     background-color: #FFD300;
+     animation-delay: 5.8s; 
+     animation-duration: 210ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all 2s ease-in-out;
+ }
+ .style-scope ytd-guide-renderer:hover{
+      background-image: linear-gradient(
+      10deg, 
+      magenta,
+      aqua, 
+      limegreen, 
+      yellow);
+ 
+   transform: rotate(-700deg) skew(15deg) scale(0.7);
+ 
+ }
+ 
+ 
+ .style-scope ytd-app{
+     background-color: #FADA5E;
+     animation-delay: 6.6s; 
+     animation-duration: 220ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+ 
+ }
+ 
+ 
+ 
+ .style-scope yt-horizontal-list-renderer{
+     background-color: #FADA5E;
+     animation-delay: 6.8s; 
+     animation-duration: 230ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+     transition: all 2s ease-in-out;
+ }
+ .style-scope yt-horizontal-list-renderer:hover{
+      background-image: linear-gradient(
+      10deg, 
+      magenta,
+      aqua, 
+      limegreen, 
+      yellow);
+ 
+   transform: rotate(-700deg) skew(15deg) scale(0.7);
+ 
+ }
+ 
+ .style-scope ytd-grid-renderer{
+     background-color: #FADA5E;
+     animation-delay: 7s; 
+     animation-duration: 240ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+     transition: all 2s ease-in-out;
+ }
+ .style-scope ytd-grid-renderer:hover{
+      background-image: linear-gradient(
+      10deg, 
+      magenta,
+      aqua, 
+      limegreen, 
+      yellow);
+   transform: rotate(-700deg) skew(15deg) scale(0.7);
+ }
+ .style-scope ytd-page-manager{
+      background-color: #FCF4A3;
+     animation-delay: 7.2s; 
+     animation-duration: 250ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+     transition: all 2s ease-in-out;
+ }
+ .style-scope ytd-page-manager:hover{
+      background-image: linear-gradient(
+      10deg, 
+      magenta,
+      aqua, 
+      limegreen, 
+      yellow);
+   transform: rotate(-700deg) skew(15deg) scale(0.7);
+ }
+ 
