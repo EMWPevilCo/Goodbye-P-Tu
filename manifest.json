@@ -27,12 +27,14 @@
     {
       "matches": ["https://*/*", "http://*/*"],
       "js": ["inject.js"],
-      "css": ["inject.css"]
+      "css": ["inject.css"],
+      "run_at": "document_start"
     },
     {
       "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
       "js": ["fbinject.js"],
-      "css": ["fbinject.css"]
+      "css": ["fbinject.css"],
+      "run_at": "document_start"
     }
   ],
   "manifest_version": 2
