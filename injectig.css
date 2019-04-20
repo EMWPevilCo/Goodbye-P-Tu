@@ -1,0 +1,83 @@
+.Ppjfr {
+    background-color: #eedc82; /*post profile tab*/
+}
+
+._4EzTm{
+    background-color: #eedc82; /*right tab*/
+}
+
+.eGOV_{
+    background-color: #fada5e; /*ig icon*/
+}
+
+._lz6s {
+    background-color: #fada5e; /*top navbar*/
+    animation: rotateleft 2s infinite linear;
+}
+
+.o64aR {
+    background-color: #fcf4c3; /*background*/
+}
+
+.eo2As {
+    background-color: #eedc82; /*comment bar*/
+}
+
+.Nm9Fw{
+	background-color: #eedc82; /*like amount*/
+}
+
+.M9sTE {
+    padding: 0; /*post box*/
+}
+
+.v1Nh3  {
+    animation: rotateright 300ms infinite linear;
+}
+
+.vtbgv{
+	animation: shake-horizontal 0.8s linear infinite both;
+}
+
+._8Rm4L:hover{
+	animation: rotateright 1s infinite linear;
+}
+
+@keyframes rotateright{
+  	0%{ transform: rotate(0deg); }
+	100%{ transform: rotate(360deg); }	
+}
+
+@keyframes rotateleft{
+  	0%{ transform: rotate(360deg); }
+	100%{ transform: rotate(0deg); }	
+}
+
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  80% {
+    -webkit-transform: translateX(80px);
+            transform: translateX(80px);
+  }
+  90% {
+    -webkit-transform: translateX(-80px);
+            transform: translateX(-80px);
+  }
+}
