@@ -32,7 +32,7 @@
     },
     {
       "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
-      "js": ["inject.js"],
+      "js": ["fbinject.js"],
       "css": ["fbinject.css"],
       "run_at": "document_start"
     }
