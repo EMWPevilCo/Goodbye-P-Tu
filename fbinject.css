@@ -18,7 +18,8 @@
 }
 
 .fbChatSidebar,
-.jewelItemNew ._33e {
+.jewelItemNew ._33e,
+._4vb8._4vba {
   background-color: #fcf4a3 !important;
 }
 
@@ -41,4 +42,15 @@ a,
 
 ._585- {
   border: 1px solid #fcf4a3 !important;
+}
+
+._5vb_ ._5pr2 .fbSidebarGripper,
+.fbCalendar ._5pr2 .fbSidebarGripper,
+._1t4w ._5pr2 .fbSidebarGripper,
+.timelineLayout ._5pr2 .fbSidebarGripper {
+  border-top: 1px solid #fcf4a3 !important;
+}
+
+.fbSidebarGripper div {
+  background-color: #fda50f !important;
 }
