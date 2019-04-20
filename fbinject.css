@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Niramit");
+
+* {
+  font-family: "Niramit", sans-serif !important;
+}
+
+._li,
+#stream_pagelet,
+._5vb_,
+._5vb_ #contentCol {
+  background-color: #fcf4a3 !important;
+}
+
+._2s1x ._2s1y {
+  background-color: #fada5e !important;
+  border-bottom: 1px solid #fada5e !important;
+  color: #fff !important;
+}
+
+.fbChatSidebar,
+.jewelItemNew ._33e,
+._4vb8._4vba {
+  background-color: #fcf4a3 !important;
+}
+
+._26w9 {
+  border-color: #fada5e !important;
+}
+
+._58cn ._58cl,
+a,
+._mx9.verbose ._mxb,
+.fbReminders .fbRemindersStory .fbRemindersTitle {
+  color: #fda50f !important;
+}
+
+._4jy1 {
+  background-color: #fda50f !important;
+  border-color: #fda50f !important;
+  color: #ffffff !important;
+}
+
+._585- {
+  border: 1px solid #fcf4a3 !important;
+}
+
+._5vb_ ._5pr2 .fbSidebarGripper,
+.fbCalendar ._5pr2 .fbSidebarGripper,
+._1t4w ._5pr2 .fbSidebarGripper,
+.timelineLayout ._5pr2 .fbSidebarGripper {
+  border-top: 1px solid #fcf4a3 !important;
+}
+
+.fbSidebarGripper div {
+  background-color: #fda50f !important;
+}

@@ -1,4 +1,17 @@
 (function () {
+	var media = new Audio(chrome.runtime.getURL("/assets/song.mp3"));
+	var playPromise = media.play();
+
+	if (playPromise !== undefined) {
+		playPromise.then(_ => {
+			media.play();
+		})
+		.catch(error => {
+			media.pause();
+		})
+	}
+
+
 
 	//Below this line is the injected script
 	//you can edit easily as an usual javascript on website
