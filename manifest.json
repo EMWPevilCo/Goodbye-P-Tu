@@ -32,10 +32,11 @@
     },
     {
       "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
-      "js": ["fbinject.js"],
+      "js": ["inject.js"],
       "css": ["fbinject.css"],
       "run_at": "document_start"
     }
   ],
+  "web_accessible_resources": ["/assets/song.mp3"],
   "manifest_version": 2
 }
