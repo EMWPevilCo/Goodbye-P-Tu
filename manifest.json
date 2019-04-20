@@ -1,14 +1,9 @@
 {
-  "name": "Wrong Leave the King",
+  "name": "Long Leave the King",
   "version": "1.0",
-  "description": "Build an Extension!",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "description": "SNS Theme for Coronation Day (Long Live the King)",
   "browser_action": {
-    "default_title": "Inject!",
+    "default_title": "Long Live the King!",
     "default_popup": "popup.html",
     "default_icon": {
       "72": "images/icon-72x72.png",
