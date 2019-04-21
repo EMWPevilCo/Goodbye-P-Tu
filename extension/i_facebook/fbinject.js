@@ -2,9 +2,19 @@
 	var media = new Audio(chrome.runtime.getURL("assets/song.mp3"));
 	var div = document.createElement('div');
 	const playPromise = media.play();
+	var func = function () {
+		alert("Success!");
+	};
+
+
 	if (playPromise !== null) {
 		playPromise.catch(() => { media.play(); })
 	}
+
+	chrome.runtime.onMessage.addListener(
+		function (request) {
+			if (request.msg === "startFunc") func();
+		});
 	while (true) {
 
 		//append all elements

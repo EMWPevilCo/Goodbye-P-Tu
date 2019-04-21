@@ -1,6 +1,4 @@
-var func = function () {
-  alert("Success!");
-};
+
 chrome.runtime.onInstalled.addListener(() => {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function () {
     chrome.declarativeContent.onPageChanged.addRules([
@@ -19,17 +17,5 @@ chrome.runtime.onInstalled.addListener(() => {
     ]);
   });
 });
-chrome.browserAction.onClicked.addListener(function (tab) {
-  // for the current tab, inject the "inject.js" file & execute it
-  chrome.tabs.executeScript(tab.id, {
-    file: ["inject.js", "inject.css"]
-  });
-});
 
 
-
-chrome.extension.onMessage.addListener(
-  function (request, sender, sendResponse) {
-    if (request.msg == "startFunc") func();
-  }
-);

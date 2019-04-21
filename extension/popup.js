@@ -1,3 +1,4 @@
-document.getElementById("normal-trigger").click(() => {
+document.getElementById("normal-trigger").onclick = function() {
+    console.log("test")
     chrome.extension.sendMessage({ msg: "startFunc" });
-})
+};
