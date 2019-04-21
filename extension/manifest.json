@@ -1,35 +1,32 @@
 {
-  "name": "Wrong Leave the King",
+  "name": "Long Leave the kingkOng",
   "version": "1.0",
-  "description": "Build an Extension!",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "description": "Stupid SNS Theme for yellOw Day",
   "browser_action": {
-    "default_title": "Inject!",
+    "default_title": "Yayy!",
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "72": "images/icon-72x72.png",
+      "96": "images/icon-96x96.png",
+      "128": "images/icon-128x128.png",
+      "144": "images/icon-144x144.png",
+      "152": "images/icon-152x152.png",
+      "192": "images/icon-192x192.png",
+      "384": "images/icon-384x384.png",
+      "512": "images/icon-512x512.png"
     }
   },
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "72": "images/icon-72x72.png",
+    "96": "images/icon-96x96.png",
+    "128": "images/icon-128x128.png",
+    "144": "images/icon-144x144.png",
+    "152": "images/icon-152x152.png",
+    "192": "images/icon-192x192.png",
+    "384": "images/icon-384x384.png",
+    "512": "images/icon-512x512.png"
   },
   "content_scripts": [
-    {
-      "matches": ["https://*/*", "http://*/*"],
-      "js": ["inject.js"],
-      "css": ["inject.css"],
-      "run_at": "document_start"
-    },
     {
       "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
       "js": ["inject.js"],

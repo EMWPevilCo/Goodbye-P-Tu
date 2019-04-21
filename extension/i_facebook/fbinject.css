@@ -4,6 +4,7 @@
   font-family: "Niramit", sans-serif !important;
 }
 
+/*  Main BG */
 ._li,
 #stream_pagelet,
 ._5vb_,
@@ -11,16 +12,25 @@
   background-color: #fcf4a3 !important;
 }
 
+/* Nav Bar */
 ._2s1x ._2s1y {
   background-color: #fada5e !important;
   border-bottom: 1px solid #fada5e !important;
   color: #fff !important;
 }
 
+/* Chatside */
 .fbChatSidebar,
 .jewelItemNew ._33e,
 ._4vb8._4vba {
   background-color: #fcf4a3 !important;
+}
+
+._5vb_ ._5pr2 .fbSidebarGripper,
+.fbCalendar ._5pr2 .fbSidebarGripper,
+._1t4w ._5pr2 .fbSidebarGripper,
+.timelineLayout ._5pr2 .fbSidebarGripper {
+  border-top: 1px solid #fcf4a3 !important;
 }
 
 ._26w9 {
@@ -42,15 +52,4 @@ a,
 
 ._585- {
   border: 1px solid #fcf4a3 !important;
-}
-
-._5vb_ ._5pr2 .fbSidebarGripper,
-.fbCalendar ._5pr2 .fbSidebarGripper,
-._1t4w ._5pr2 .fbSidebarGripper,
-.timelineLayout ._5pr2 .fbSidebarGripper {
-  border-top: 1px solid #fcf4a3 !important;
-}
-
-.fbSidebarGripper div {
-  background-color: #fda50f !important;
 }
