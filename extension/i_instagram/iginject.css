@@ -9,6 +9,7 @@
 ._lz6s {
     background-color: #FE0000; /*top navbar*/
     animation: rotateleft 2s infinite linear;
+    animation-delay: 5s;
 }
 
 .o64aR {
