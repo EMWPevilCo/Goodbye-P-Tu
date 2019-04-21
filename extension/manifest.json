@@ -29,7 +29,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
-      "js": ["inject.js"],
+      "js": ["i_facebook/fbinject.js"],
       "css": ["i_facebook/fbinject.css"],
       "run_at": "document_start"
     },

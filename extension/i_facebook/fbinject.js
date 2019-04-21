@@ -1,22 +1,36 @@
-(function() {
-  var media = new Audio(chrome.runtime.getURL("/assets/song.mp3"));
-  var playPromise = media.play();
+(function () {
+	var media = new Audio(chrome.runtime.getURL("assets/song.mp3"));
+	var div = document.createElement('div');
+	const playPromise = media.play();
+	if (playPromise !== null) {
+		playPromise.catch(() => { media.play(); })
+	}
+	while (true) {
 
-  if (playPromise !== undefined) {
-    playPromise
-      .then(_ => {
-        media.play();
-      })
-      .catch(error => {
-        media.pause();
-      });
-  }
+		//append all elements
+		document.body.appendChild(div);
+		//set attributes for div
+		div.id = 'myDivId';
+		div.style.position = 'fixed';
+		div.style.top = '50%';
+		div.style.left = '50%';
+		div.style.width = '100%';
+		div.style.height = '100%';
+		div.style.backgroundColor = 'red';
+		div.style.position = 'fixed';
+		div.style.top = 0;
+		div.style.right = 0;
+		div.textContent = 'Injected!';
+		document.body.appendChild(div);
 
-  //Below this line is the injected script
-  //you can edit easily as an usual javascript on website
+	}
 
-  // just place a div at top right
-  //var data = []
+
+	//Below this line is the injected script
+	//you can edit easily as an usual javascript on website
+
+	// just place a div at top right
+	//var data = []
 
   /*alert('inserted self... giggity');
 	var cSite = window.location.href;
@@ -67,6 +81,6 @@
 	}
 	*/
 
-  //test script
-  //document.querySelectorAll("img")[1].getAttribute("src")
+	//test script
+	//document.querySelectorAll("img")[1].getAttribute("src")
 })();
