@@ -9,9 +9,10 @@
 #stream_pagelet,
 ._5vb_,
 ._5vb_ #contentCol {
-  background-color: #fcf4a3 !important;
+  background-color: #FE0000 !important;
   position: relative;
   /* Safari 4.0 - 8.0 */
+  
   -webkit-animation-name: example;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: linear;
@@ -60,16 +61,50 @@
 /* Chatside */
 .fbChatSidebar,
 .jewelItemNew ._33e,
-._4vb8._4vba {
-  background-color: #fcf4a3 !important;
+._4vb8._4vba,
+._5qqe,._55oc,._55ob {
+  background-color: #00CCFF !important;
+  
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  /* Standard syntax */
+  animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
 
 ._5vb_ ._5pr2 .fbSidebarGripper,
 .fbCalendar ._5pr2 .fbSidebarGripper,
 ._1t4w ._5pr2 .fbSidebarGripper,
 .timelineLayout ._5pr2 .fbSidebarGripper {
-  border-top: 1px solid #fcf4a3 !important;
-      -webkit-animation-name: example;
+  border-top: 1px solid #00CCFF !important;
+  -webkit-animation-name: example;
   -webkit-animation-duration: 3s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-delay: 5s;
@@ -86,22 +121,22 @@
 
 
 ._26w9 {
-  border-color: #fada5e !important;
+  border-color: #993400 !important;
 }
 
 ._58cn ._58cl,
 a,
 ._mx9.verbose ._mxb,
 .fbReminders .fbRemindersStory .fbRemindersTitle {
-  color: #fda50f !important;
+  color: #993400 !important;
 }
 
 ._4jy1 {
-  background-color: #fda50f !important;
-  border-color: #fda50f !important;
+  background-color: #993400 !important;
+  border-color: #993400 !important;
   color: #ffffff !important;
 }
 
 ._585- {
-  border: 1px solid #fcf4a3 !important;
+  border: 1px solid #993400 !important;
 }
