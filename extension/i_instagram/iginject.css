@@ -1,37 +1,37 @@
 .Ppjfr {
-    background-color: #010080; /*post profile tab*/
+    background-color: #010080 !important; /*post profile tab*/
 }
 
 .eGOV_{
-    background-color: #FE0000; /*ig icon*/
+    background-color: #FE0000 !important; /*ig icon*/
 }
 
 ._lz6s {
-    background-color: #FE0000; /*top navbar*/
+    background-color: #FE0000 !important; /*top navbar*/
     animation: rotateleft 2s infinite linear;
     animation-delay: 5s;
 }
 
 .SCxLW {
-    background-color: #00CCFF; /*background*/
+    background-color: #00CCFF !important; /*background*/
 }
 
 .eo2As {
-    background-color: #010080; /*comment bar*/
+    background-color: #010080 !important; /*comment bar*/
     color: #fff;
 }
 
 .Nm9Fw{
-	background-color: #010080; /*like amount*/
+	background-color: #010080 !important; /*like amount*/
     color: #fff;
 }
 
 .ltpMr{
-	background-color: #010080; /*album tab*/
+	background-color: #010080 !important; /*album tab*/
 }
 
 ._8Rm4L {
-  	background-color: #00CCFF;
+  	background-color: #00CCFF !important;
 }
 
 .v1Nh3  {
