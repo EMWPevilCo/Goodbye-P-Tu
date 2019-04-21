@@ -1,34 +1,37 @@
 .Ppjfr {
-    background-color: #eedc82; /*post profile tab*/
-}
-
-._4EzTm{
-    background-color: #eedc82; /*right tab*/
+    background-color: #010080; /*post profile tab*/
 }
 
 .eGOV_{
-    background-color: #fada5e; /*ig icon*/
+    background-color: #FE0000; /*ig icon*/
 }
 
 ._lz6s {
-    background-color: #fada5e; /*top navbar*/
+    background-color: #FE0000; /*top navbar*/
     animation: rotateleft 2s infinite linear;
+    animation-delay: 5s;
 }
 
-.o64aR {
-    background-color: #fcf4c3; /*background*/
+.SCxLW {
+    background-color: #00CCFF; /*background*/
 }
 
 .eo2As {
-    background-color: #eedc82; /*comment bar*/
+    background-color: #010080; /*comment bar*/
+    color: #fff;
 }
 
 .Nm9Fw{
-	background-color: #eedc82; /*like amount*/
+	background-color: #010080; /*like amount*/
+    color: #fff;
 }
 
-.M9sTE {
-    padding: 0; /*post box*/
+.ltpMr{
+	background-color: #010080; /*album tab*/
+}
+
+._8Rm4L {
+  	background-color: #00CCFF;
 }
 
 .v1Nh3  {
@@ -81,3 +84,12 @@
             transform: translateX(-80px);
   }
 }
+
+ @keyframes blink {
+    from {
+       opacity: 1;
+    }
+    to {
+       opacity: 0;
+    }
+  }

@@ -1,7 +1,7 @@
 .style-scope ytd-masthead{
-    background-color:#FDA50F;
+    background-color:#993400;
     animation-delay: 5s; 
-    animation-duration: 200ms;
+    animation-duration: 600ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -26,9 +26,9 @@
   }
  
  .style-scope ytd-guide-renderer{
-     background-color: #FFD300;
+     background-color: #010080;
      animation-delay: 5.8s; 
-     animation-duration: 210ms;
+     animation-duration: 510ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -48,9 +48,9 @@
  
  
  .style-scope ytd-app{
-     background-color: #FADA5E;
+     background-color: #00CCFF;
      animation-delay: 6.6s; 
-     animation-duration: 220ms;
+     animation-duration: 520ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -61,9 +61,9 @@
  
  
  .style-scope yt-horizontal-list-renderer{
-     background-color: #FADA5E;
+     background-color: #993400;
      animation-delay: 6.8s; 
-     animation-duration: 230ms;
+     animation-duration: 530ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -82,9 +82,9 @@
  }
  
  .style-scope ytd-grid-renderer{
-     background-color: #FADA5E;
+     background-color: #993400;
      animation-delay: 7s; 
-     animation-duration: 240ms;
+     animation-duration: 540ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -100,9 +100,9 @@
    transform: rotate(-700deg) skew(15deg) scale(0.7);
  }
  .style-scope ytd-page-manager{
-      background-color: #FCF4A3;
+      background-color: #FE0000;
      animation-delay: 7.2s; 
-     animation-duration: 250ms;
+     animation-duration: 550ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;

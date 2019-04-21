@@ -1,5 +1,4 @@
-document.getElementById('normal-trigger').addEventListener("click", () => {
-    console.log("Hello World")
-    
-})
-
+document.getElementById("normal-trigger").onclick = function() {
+    console.log("test")
+    chrome.runtime.sendMessage({ msg: "startFunc" });
+};
