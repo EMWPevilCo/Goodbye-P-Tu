@@ -1,1 +1,1 @@
-# Long Leave the King
+# Goodbye Prayut Chan-o-cha
